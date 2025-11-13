@@ -1,7 +1,11 @@
 export default function Main() {
   return (
     <main>
-      <h1>Main Here</h1>
+      <div className="main-box"></div>
+      <h1 className="message">Message Here</h1>
+      <button className="buttonOne">#FFFFFF</button>
+      <button className="buttonTwo">#FFFFFF</button>
+      <button className="buttonThree">#FFFFFF</button>
     </main>
   )
 }
